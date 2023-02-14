@@ -35,3 +35,6 @@ jobs:
 
       - name: build action
         run: ./gradlew build
+
+      - name: workflow
+        run: echo "KEY=VALUE" >>$GITHUB_OUTPUT
